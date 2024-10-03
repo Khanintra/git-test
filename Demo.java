@@ -7,6 +7,6 @@ puplic class Demo{
     puplic static void maim (String[]args){
         Greeter greeter = new Greeter ();
         List<String> names = Arrays.asList("John","Jane","Jack");
-        names.forEach(greeter::greet);
+        names.forEach((b) -> greeter::greet(n));
     }
 }
