@@ -8,6 +8,6 @@ puplic class Demo{
         Greeter greeter = new Greeter ();
         List<String> names = Arrays.asList("John","Jane","Jack");
         names.forEach((b) -> greeter::greet(n));
-       System.out.println ("Hello,"+ name);
+       System.out.println ("Hello");
     }
 }
